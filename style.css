@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    height: 100vh;
+    background-color: #fff;
+    /* background-color: red; */
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+.navbar h3{
+    margin-left: 50px;
+    font-size: 25px;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    /* border: 2px solid wheat; */
+    
+}
+.navbar ul li{
+list-style: none;
+font-size: 18px;
+}
+.log-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+
+}
+.log-btn h5{
+    padding: 20px;
+    font-size: 16px;
+}
+.log-btn button{
+    height: 45px;
+    width: 100px;
+    background-color: black;
+    color: #fff;
+}
+.main-container{
+    height: 450px;
+    display: flex;
+}
+.contant{
+    width: 50%;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.contant h1{
+    font-size: 60px;
+}
+.text{
+    margin-top: 20px;
+}
+.color{
+    background-color: chartreuse;
+    height: 30px;
+    width: 320px;
+}
+.color-text{
+    margin-top: -65px;
+    /* width: 280px; */
+}
+.contant p{
+    padding-top: 10px;
+}
+.input{
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    /* padding-top: 10px; */
+}
+.input input{
+    height: 40px;
+    width: 250px;
+    padding-left: 10px;
+    border: 2px solid black;
+    
+}
+.input button{
+    height: 40px;
+    width: 90px;
+    color: #fff;
+    background-color: black;
+}
+.logo-img{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 80%;
+margin-top: 20px;
+}
+.logo-img img{
+    height: 40px;
+}
+.image{
+width: 50%;
+}
+.img-1{
+    margin-left: 50px;
+}
+.img-1 img{
+    height: 200px;
+    padding-left: 30px;
+}
+.img-2{
+    margin-left: 90px;
+    
+}
+.img-2 img{
+    height: 250px;
+}
